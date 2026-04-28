@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "http://baristabeans-627993667.us-east-1.elb.amazonaws.com/$1"
+    }
+  ]
+}
